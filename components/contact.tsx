@@ -69,7 +69,7 @@ export function Contact() {
         setIsSubmitted(true)
         toast({
           title: "Message sent!",
-          description: "An A11y Clinician will get in touch with you!",
+          description: "An Accessibility Practitioner will get in touch with you!",
         })
 
         // Reset form after submission
@@ -268,7 +268,7 @@ export function Contact() {
 
                 {isSubmitted && (
                   <p className="text-green-600 text-center font-medium">
-                    An A11y Clinician will get in touch with you!
+                    An Accessibility Practitioner will get in touch with you!
                   </p>
                 )}
               </div>
@@ -279,4 +279,3 @@ export function Contact() {
     </section>
   )
 }
-

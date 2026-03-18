@@ -1,6 +1,6 @@
 {
-  "name": "A11y Clinic",
-  "short_name": "A11y Clinic",
+  "name": "Accessibility Practice",
+  "short_name": "A11y Practice",
   "icons": [
     {
       "src": "/images/favicon.png",
@@ -17,4 +17,3 @@
   "background_color": "#1e2a43",
   "display": "standalone"
 }
-

@@ -22,7 +22,7 @@ export function About() {
           </h1>
 
           <div className="prose prose-lg max-w-none text-navy-800">
-            <p className="text-xl font-medium mb-6">A11y Clinic is here to:</p>
+            <p className="text-xl font-medium mb-6">Accessibility Practice is here to:</p>
             <ol className="list-decimal pl-6 mb-6 space-y-2">
               <li>Address accessibility issues and stay compliant with regulations</li>
               <li>Identify opportunities to improve UI/UX with user-centric design principles</li>
@@ -30,7 +30,7 @@ export function About() {
             </ol>
 
             <p className="mb-6">
-              A11y Clinic will help you resolve web accessibility problems and improve Web UI/UX. Accessibility
+              Accessibility Practice will help you resolve web accessibility problems and improve Web UI/UX. Accessibility
               principles lead us to a human-centric future.
             </p>
 
@@ -93,4 +93,3 @@ export function About() {
     </section>
   )
 }
-

@@ -18,7 +18,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "A11y Clinic",
+  title: "Accessibility Practice",
   description: "Making the web accessible for everyone",
     generator: 'v0.app'
 }
@@ -39,4 +39,3 @@ export default function RootLayout({
     </html>
   )
 }
-

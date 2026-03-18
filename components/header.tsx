@@ -72,8 +72,8 @@ export function Header() {
               <Logo className="text-gray-100" size={50} />
               <div className="ml-3">
                 <div className="flex flex-col justify-center h-[50px]">
-                  <span className="text-2xl font-serif leading-none text-gray-100">A11y</span>
-                  <span className="text-2xl font-serif leading-none text-gray-100">Clinic</span>
+                  <span className="text-2xl font-serif leading-none text-gray-100">Accessibility</span>
+                  <span className="text-2xl font-serif leading-none text-gray-100">Practice</span>
                 </div>
               </div>
             </div>
@@ -99,8 +99,8 @@ export function Header() {
           <div className="flex items-center justify-between">
             <div className="bg-navy-900/90 backdrop-blur-sm py-1 px-3 rounded-br-md absolute top-0 left-0">
               <div className="flex flex-col justify-center">
-                <span className="text-lg font-serif leading-none text-gray-100">A11y</span>
-                <span className="text-lg font-serif leading-none text-gray-100">Clinic</span>
+                <span className="text-lg font-serif leading-none text-gray-100">Accessibility</span>
+                <span className="text-lg font-serif leading-none text-gray-100">Practice</span>
               </div>
             </div>
 
@@ -130,4 +130,3 @@ export function Header() {
     </>
   )
 }
-
