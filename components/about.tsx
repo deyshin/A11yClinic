@@ -17,8 +17,8 @@ export function About() {
     <section id="about" className="py-16 md:py-24 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold text-navy-900 mb-8 text-center">
-            Making the Web Accessible for Everyone
+          <h1 className="text-4xl md:text-5xl font-serif font-normal text-navy-900 mb-8 text-center">
+            We Fix A11y Issues &amp; Make UX Better
           </h1>
 
           <div className="prose prose-lg max-w-none text-navy-800">
@@ -40,7 +40,7 @@ export function About() {
             </p>
 
             <div className="bg-navy-50 p-6 rounded-lg border border-navy-200 my-8">
-              <h2 className="text-2xl font-serif font-bold text-navy-900 mb-4">Meet Your A11y Clinician</h2>
+              <h2 className="text-2xl font-serif font-normal text-navy-900 mb-4">Meet Your A11y Clinician</h2>
               <p className="mb-4">
                 I am Daniel, your A11y Clinician! I've been in tech for 10 years, and spent 5 of those specializing in
                 Web Accessibility in big tech (I was the one and only Level II A11y Specialist). I've resolved issues,
@@ -75,7 +75,7 @@ export function About() {
             <div className="flex flex-col items-center mt-10 space-y-6">
               <Button
                 onClick={scrollToServices}
-                className="bg-navy-800 hover:bg-navy-900 text-white px-8 py-6 text-lg rounded-md"
+                className="bg-navy-800 hover:bg-navy-900 text-white px-8 py-6 text-lg rounded-md border-2 border-navy-900"
               >
                 Explore Our Services
               </Button>

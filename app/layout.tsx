@@ -20,6 +20,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "A11y Clinic",
   description: "Making the web accessible for everyone",
+    generator: 'v0.app'
 }
 
 export default function RootLayout({
@@ -30,8 +31,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${breeSerif.variable} ${inter.variable}`}>
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-icon.png" />
+        <link rel="icon" href="/images/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/images/apple-icon.png" />
+        <link rel="manifest" href="/manifest.json" />
       </head>
       <body>{children}</body>
     </html>
