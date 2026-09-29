@@ -10,8 +10,8 @@ export function Footer() {
               <Logo className="text-gray-100" size={40} />
               <div className="ml-3">
                 <div className="flex flex-col justify-center h-[40px]">
-                  <span className="text-xl font-serif font-normal leading-none">A11y</span>
-                  <span className="text-xl font-serif font-normal leading-none">Clinic</span>
+                  <span className="text-xl font-serif font-normal leading-none">Accessibility</span>
+                  <span className="text-xl font-serif font-normal leading-none">Practice</span>
                 </div>
               </div>
             </div>
@@ -19,10 +19,10 @@ export function Footer() {
             <p className="text-gray-300">
               Contact:{" "}
               <a
-                href="mailto:daniel@a11yclinic.com"
+                href="mailto:daniel@accessibilitypractice.com"
                 className="underline hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2 focus:ring-offset-navy-900 rounded"
               >
-                daniel@a11yclinic.com
+                daniel@accessibilitypractice.com
               </a>
             </p>
           </div>
@@ -80,10 +80,9 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} A11y Clinic. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Accessibility Practice. All rights reserved.</p>
         </div>
       </div>
     </footer>
   )
 }
-

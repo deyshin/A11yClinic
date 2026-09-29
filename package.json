@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
@@ -53,12 +53,12 @@
     "react-hook-form": "^7.54.1",
     "react-resizable-panels": "^2.1.7",
     "recharts": "2.15.0",
+    "resend": "^2.0.0",
     "sonner": "^1.7.1",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.6",
-    "zod": "^3.24.1",
-    "resend": "^2.0.0"
+    "zod": "^3.24.1"
   },
   "devDependencies": {
     "@types/node": "^22",
@@ -69,4 +69,3 @@
     "typescript": "^5"
   }
 }
-

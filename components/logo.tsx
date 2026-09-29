@@ -26,4 +26,3 @@ export function Logo({ className = "", size = 40 }: { className?: string; size?:
     </svg>
   )
 }
-

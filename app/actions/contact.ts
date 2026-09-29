@@ -28,7 +28,7 @@ export async function sendContactEmail(formData: ContactFormData) {
 
     // Send email using Resend
     const { data, error } = await resend.emails.send({
-      from: "A11y Clinic Website <no-reply@a11yclinic.com>",
+      from: "Accessibility Practice Website <no-reply@a11yclinic.com>",
       to: "daniel@a11yclinic.com",
       subject: `New Contact Form Submission from ${formData.name}`,
       reply_to: formData.email,
@@ -53,4 +53,3 @@ ${formData.message}
     return { success: false, message: "An unexpected error occurred. Please try again." }
   }
 }
-

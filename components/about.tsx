@@ -17,12 +17,12 @@ export function About() {
     <section id="about" className="py-16 md:py-24 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold text-navy-900 mb-8 text-center">
-            Making the Web Accessible for Everyone
+          <h1 className="text-4xl md:text-5xl font-serif font-normal text-navy-900 mb-8 text-center">
+            For Better Software Experience for All
           </h1>
 
           <div className="prose prose-lg max-w-none text-navy-800">
-            <p className="text-xl font-medium mb-6">A11y Clinic is here to:</p>
+            <p className="text-xl font-medium mb-6">Accessibility Practice is here to:</p>
             <ol className="list-decimal pl-6 mb-6 space-y-2">
               <li>Address accessibility issues and stay compliant with regulations</li>
               <li>Identify opportunities to improve UI/UX with user-centric design principles</li>
@@ -30,24 +30,51 @@ export function About() {
             </ol>
 
             <p className="mb-6">
-              A11y Clinic will help you resolve web accessibility problems and improve Web UI/UX. Accessibility
+              Accessibility Practice will help you resolve web accessibility problems and improve Web UI/UX. Accessibility
               principles lead us to a human-centric future.
             </p>
+
+            <div className="my-10 grid gap-6 md:grid-cols-2">
+              <div className="rounded-lg border border-navy-200 bg-white p-6 shadow-sm">
+                <h2 className="mb-3 text-2xl font-serif font-normal text-navy-900">What is accessibility?</h2>
+                <p>
+                  Accessibility, or A11y, helps everyone—including disabled and elderly people—get things done using software. The ADA provides a legal framework, while WCAG is widely used to evaluate conformance.
+                </p>
+              </div>
+              <div className="rounded-lg border border-navy-200 bg-white p-6 shadow-sm">
+                <h2 className="mb-3 text-2xl font-serif font-normal text-navy-900">How we improve it</h2>
+                <p>
+                  We assess common usability issues, research patterns that address them, provide practical solutions and guidelines, and support compliance with existing legal and regulatory frameworks.
+                </p>
+              </div>
+            </div>
+
+            <div className="mb-8 rounded-lg bg-navy-50 p-6">
+              <h2 className="mb-6 text-2xl font-serif font-normal text-navy-900">Team Members</h2>
+              <div className="grid gap-6 md:grid-cols-2">
+                <article className="overflow-hidden rounded-lg bg-white shadow-sm">
+                  <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Pasted%202026-09-25%20at%2017.05.40-1DgaAB9yHFYPM4lNM88pKt0ugGM17k.jpeg" alt="Daniel S., Executive Director" className="aspect-[4/3] w-full object-cover" />
+                  <div className="p-5">
+                    <h3 className="text-xl font-serif text-navy-900">Daniel S.</h3>
+                    <p className="mb-3 text-sm font-semibold text-teal-800">Executive Director</p>
+                    <p>With a decade of experience in technology and education, Daniel strives to close the gap between people and their goals through accessibility improvement.</p>
+                  </div>
+                </article>
+                <article className="overflow-hidden rounded-lg bg-white shadow-sm">
+                  <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Pasted%202026-09-25%20at%2017.05.43-dkvhzsfo4t1DIMyUVldCU7MoYrrEvV.jpeg" alt="Audri S., Development Director" className="aspect-[4/3] w-full object-cover" />
+                  <div className="p-5">
+                    <h3 className="text-xl font-serif text-navy-900">Audri S.</h3>
+                    <p className="mb-3 text-sm font-semibold text-teal-800">Development Director</p>
+                    <p>With extensive data analytics and compliance experience, Audri builds Accessibility Practice&apos;s business framework and relationships with other organizations.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
 
             <p className="mb-6">
               Approaching Web Accessibility as a core building block rather than an add-on will bring agility and
               quality to software product development cycles.
             </p>
-
-            <div className="bg-navy-50 p-6 rounded-lg border border-navy-200 my-8">
-              <h2 className="text-2xl font-serif font-bold text-navy-900 mb-4">Meet Your A11y Clinician</h2>
-              <p className="mb-4">
-                I am Daniel, your A11y Clinician! I've been in tech for 10 years, and spent 5 of those specializing in
-                Web Accessibility in big tech (I was the one and only Level II A11y Specialist). I've resolved issues,
-                ran training events, mentored engineers, and built out plans to run annual audit processes from
-                discovery to resolution.
-              </p>
-            </div>
 
             <p className="mb-6">
               Get an A11y Checkup to identify potential risks and opportunities to improve! In addition, future-proof
@@ -75,7 +102,7 @@ export function About() {
             <div className="flex flex-col items-center mt-10 space-y-6">
               <Button
                 onClick={scrollToServices}
-                className="bg-navy-800 hover:bg-navy-900 text-white px-8 py-6 text-lg rounded-md"
+                className="bg-navy-800 hover:bg-navy-900 text-white px-8 py-6 text-lg rounded-md border-2 border-navy-900"
               >
                 Explore Our Services
               </Button>
@@ -93,4 +120,3 @@ export function About() {
     </section>
   )
 }
-
