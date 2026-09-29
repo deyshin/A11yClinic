@@ -28,11 +28,16 @@ export function Support() {
                 <h3 className="mb-1 font-serif text-xl text-navy-900">Join office hours</h3>
                 <p className="text-sm leading-6 text-navy-700">Reach out to learn when and where the next in-person office hour will be held.</p>
               </a>
-              <div className="rounded-xl bg-navy-900 p-5 text-white shadow-sm sm:col-span-3 lg:col-span-1">
+              <a
+                href="https://zeffy.com/en-US/donation-form/support-tech-help-office-hours"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-xl bg-navy-900 p-5 text-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-teal-700 focus:ring-offset-2 sm:col-span-3 lg:col-span-1"
+              >
                 <HeartHandshake className="mb-3 text-amber-300" aria-hidden="true" />
                 <h3 className="mb-1 font-serif text-xl">Donate</h3>
                 <p className="text-sm leading-6 text-gray-200">Your support helps Accessibility Practice help the community. Thank you for investing in access.</p>
-              </div>
+              </a>
             </div>
           </div>
         </div>
