@@ -53,7 +53,7 @@ export function About() {
               <h2 className="mb-6 text-2xl font-serif font-normal text-navy-900">Team Members</h2>
               <div className="grid gap-6 md:grid-cols-2">
                 <article className="overflow-hidden rounded-lg bg-white shadow-sm">
-                  <img src="/images/leadership/daniel.png" alt="Daniel S., Executive Director" className="aspect-[4/3] w-full object-cover" />
+                  <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Pasted%202026-09-25%20at%2017.05.40-1DgaAB9yHFYPM4lNM88pKt0ugGM17k.jpeg" alt="Daniel S., Executive Director" className="aspect-[4/3] w-full object-cover" />
                   <div className="p-5">
                     <h3 className="text-xl font-serif text-navy-900">Daniel S.</h3>
                     <p className="mb-3 text-sm font-semibold text-teal-800">Executive Director</p>
@@ -61,7 +61,7 @@ export function About() {
                   </div>
                 </article>
                 <article className="overflow-hidden rounded-lg bg-white shadow-sm">
-                  <img src="/images/leadership/audri.png" alt="Audri S., Development Director" className="aspect-[4/3] w-full object-cover" />
+                  <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Pasted%202026-09-25%20at%2017.05.43-dkvhzsfo4t1DIMyUVldCU7MoYrrEvV.jpeg" alt="Audri S., Development Director" className="aspect-[4/3] w-full object-cover" />
                   <div className="p-5">
                     <h3 className="text-xl font-serif text-navy-900">Audri S.</h3>
                     <p className="mb-3 text-sm font-semibold text-teal-800">Development Director</p>
