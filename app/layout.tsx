@@ -18,8 +18,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Accessibility Practice",
-  description: "Making the web accessible for everyone",
+  title: "Accessibility Practice | Making technology work for everyone",
+  description: "Accessibility Practice is a 501(c)(3) nonprofit helping communities and teams improve software accessibility and user experience.",
     generator: 'v0.app'
 }
 

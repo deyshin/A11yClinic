@@ -34,6 +34,27 @@ export function About() {
               principles lead us to a human-centric future.
             </p>
 
+            <div className="my-10 grid gap-6 md:grid-cols-2">
+              <div className="rounded-lg border border-navy-200 bg-white p-6 shadow-sm">
+                <h2 className="mb-3 text-2xl font-serif font-normal text-navy-900">What is accessibility?</h2>
+                <p>
+                  Accessibility, or A11y, helps everyone—including disabled and elderly people—get things done using software. The ADA provides a legal framework, while WCAG is widely used to evaluate conformance.
+                </p>
+              </div>
+              <div className="rounded-lg border border-navy-200 bg-white p-6 shadow-sm">
+                <h2 className="mb-3 text-2xl font-serif font-normal text-navy-900">How we improve it</h2>
+                <p>
+                  We assess common usability issues, research patterns that address them, provide practical solutions and guidelines, and support compliance with existing legal and regulatory frameworks.
+                </p>
+              </div>
+            </div>
+
+            <div className="mb-8 rounded-lg bg-navy-50 p-6">
+              <h2 className="mb-3 text-2xl font-serif font-normal text-navy-900">Our leadership</h2>
+              <p><strong>Daniel S.</strong>, Executive Director, brings a decade of experience in technology and education to close the gap between people and their goals through accessibility improvement.</p>
+              <p className="mt-3"><strong>Audri S.</strong>, Development Director, builds the organization&apos;s business framework and relationships through extensive data analytics and compliance experience.</p>
+            </div>
+
             <p className="mb-6">
               Approaching Web Accessibility as a core building block rather than an add-on will bring agility and
               quality to software product development cycles.

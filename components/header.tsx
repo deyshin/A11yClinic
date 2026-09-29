@@ -39,11 +39,11 @@ export function Header() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
-  const scrollToContact = () => {
-    const contactSection = document.getElementById("contact")
-    if (contactSection) {
+  const scrollToSupport = () => {
+    const supportSection = document.getElementById("support")
+    if (supportSection) {
       window.scrollTo({
-        top: contactSection.offsetTop - 80,
+        top: supportSection.offsetTop - 80,
         behavior: "smooth",
       })
     }
@@ -80,11 +80,11 @@ export function Header() {
 
             {/* Desktop and Mobile Contact Button */}
             <button
-              onClick={scrollToContact}
+              onClick={scrollToSupport}
               className="px-6 py-2 rounded-md bg-gray-100 text-navy-900 font-medium hover:bg-gray-200 transition-colors border-2 border-navy-900"
-              aria-label="Contact us"
+              aria-label="Support Accessibility Practice"
             >
-              Contact
+              Support
             </button>
           </div>
         </div>
@@ -106,11 +106,11 @@ export function Header() {
 
             {/* Contact button in truncated header */}
             <button
-              onClick={scrollToContact}
+              onClick={scrollToSupport}
               className="absolute top-1 right-4 px-4 py-1 rounded-md bg-gray-100 text-navy-900 text-sm font-medium hover:bg-gray-200 transition-colors border-2 border-navy-900"
-              aria-label="Contact us"
+              aria-label="Support Accessibility Practice"
             >
-              Contact
+              Support
             </button>
           </div>
         </div>
@@ -122,8 +122,8 @@ export function Header() {
           "lg:hidden fixed z-50 p-3 focus:outline-none focus:ring-2 focus:ring-gray-300 rounded-md text-navy-900 bg-gray-100 transition-all duration-300 top-4 right-4 border-2 border-navy-900",
           isScrolled ? "opacity-100" : "opacity-0 pointer-events-none",
         )}
-        onClick={scrollToContact}
-        aria-label="Contact us"
+        onClick={scrollToSupport}
+        aria-label="Support Accessibility Practice"
       >
         Contact
       </button>
