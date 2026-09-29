@@ -19,10 +19,10 @@ export function Footer() {
             <p className="text-gray-300">
               Contact:{" "}
               <a
-                href="mailto:daniel@a11yclinic.com"
+                href="mailto:daniel@accessibilitypractice.com"
                 className="underline hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2 focus:ring-offset-navy-900 rounded"
               >
-                daniel@a11yclinic.com
+                daniel@accessibilitypractice.com
               </a>
             </p>
           </div>

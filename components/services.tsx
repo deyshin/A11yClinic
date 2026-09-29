@@ -1,4 +1,4 @@
-import { ClipboardCheck, Wrench, LineChart, PartyPopper } from "lucide-react"
+import { ClipboardCheck, Wrench, LineChart, PartyPopper, UsersRound } from "lucide-react"
 
 export function Services() {
   return (
@@ -6,7 +6,7 @@ export function Services() {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-serif font-bold text-navy-900 mb-12 text-center">Our Services</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
           {/* A11y Checkup */}
           <div className="bg-gray-50 rounded-lg p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow flex flex-col h-full">
             <div className="mb-4 text-navy-700">
@@ -49,6 +49,18 @@ export function Services() {
               Clinician makes a long-term plan based on A11y Checkup report, architects a plan to improve UI/UX and
               product development process.
             </p>
+          </div>
+
+          {/* Community Office Hours */}
+          <div className="bg-gray-50 rounded-lg p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow flex flex-col h-full">
+            <div className="mb-4 text-navy-700">
+              <UsersRound size={32} />
+            </div>
+            <h3 className="text-xl font-serif font-bold text-navy-900 mb-3">Community Office Hours</h3>
+            <p className="text-navy-800 mb-4 flex-grow">
+              Meet the Accessibility Practice team in person to talk through software experiences, share accessibility concerns, and learn practical ways to make products work better for everyone.
+            </p>
+            <p className="text-navy-800">Office hours are held in person. Email <a href="mailto:oh@accessibilitypractice.com" className="font-medium underline">oh@accessibilitypractice.com</a> to learn when and where the next session will be held.</p>
           </div>
 
           {/* A11y Party */}

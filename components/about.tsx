@@ -18,7 +18,7 @@ export function About() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-serif font-normal text-navy-900 mb-8 text-center">
-            We Fix A11y Issues &amp; Make UX Better
+            For Better Software Experience for All
           </h1>
 
           <div className="prose prose-lg max-w-none text-navy-800">
@@ -50,25 +50,31 @@ export function About() {
             </div>
 
             <div className="mb-8 rounded-lg bg-navy-50 p-6">
-              <h2 className="mb-3 text-2xl font-serif font-normal text-navy-900">Our leadership</h2>
-              <p><strong>Daniel S.</strong>, Executive Director, brings a decade of experience in technology and education to close the gap between people and their goals through accessibility improvement.</p>
-              <p className="mt-3"><strong>Audri S.</strong>, Development Director, builds the organization&apos;s business framework and relationships through extensive data analytics and compliance experience.</p>
+              <h2 className="mb-6 text-2xl font-serif font-normal text-navy-900">Team Members</h2>
+              <div className="grid gap-6 md:grid-cols-2">
+                <article className="overflow-hidden rounded-lg bg-white shadow-sm">
+                  <img src="/images/leadership/daniel.png" alt="Daniel S., Executive Director" className="aspect-[4/3] w-full object-cover" />
+                  <div className="p-5">
+                    <h3 className="text-xl font-serif text-navy-900">Daniel S.</h3>
+                    <p className="mb-3 text-sm font-semibold text-teal-800">Executive Director</p>
+                    <p>With a decade of experience in technology and education, Daniel strives to close the gap between people and their goals through accessibility improvement.</p>
+                  </div>
+                </article>
+                <article className="overflow-hidden rounded-lg bg-white shadow-sm">
+                  <img src="/images/leadership/audri.png" alt="Audri S., Development Director" className="aspect-[4/3] w-full object-cover" />
+                  <div className="p-5">
+                    <h3 className="text-xl font-serif text-navy-900">Audri S.</h3>
+                    <p className="mb-3 text-sm font-semibold text-teal-800">Development Director</p>
+                    <p>With extensive data analytics and compliance experience, Audri builds Accessibility Practice&apos;s business framework and relationships with other organizations.</p>
+                  </div>
+                </article>
+              </div>
             </div>
 
             <p className="mb-6">
               Approaching Web Accessibility as a core building block rather than an add-on will bring agility and
               quality to software product development cycles.
             </p>
-
-            <div className="bg-navy-50 p-6 rounded-lg border border-navy-200 my-8">
-              <h2 className="text-2xl font-serif font-normal text-navy-900 mb-4">Meet Your A11y Clinician</h2>
-              <p className="mb-4">
-                I am Daniel, your A11y Clinician! I've been in tech for 10 years, and spent 5 of those specializing in
-                Web Accessibility in big tech (I was the one and only Level II A11y Specialist). I've resolved issues,
-                ran training events, mentored engineers, and built out plans to run annual audit processes from
-                discovery to resolution.
-              </p>
-            </div>
 
             <p className="mb-6">
               Get an A11y Checkup to identify potential risks and opportunities to improve! In addition, future-proof

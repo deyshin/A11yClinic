@@ -125,7 +125,7 @@ export function Header() {
         onClick={scrollToSupport}
         aria-label="Support Accessibility Practice"
       >
-        Contact
+        Support
       </button>
     </>
   )
