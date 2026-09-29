@@ -60,7 +60,7 @@ export function Services() {
             <p className="text-navy-800 mb-4 flex-grow">
               Meet the Accessibility Practice team in person to talk through software experiences, share accessibility concerns, and learn practical ways to make products work better for everyone.
             </p>
-            <p className="text-navy-800">Office hours are held in person. Email <a href="mailto:oh@accessibilitypractice.com" className="font-medium underline">oh@accessibilitypractice.com</a> to learn when and where the next session will be held.</p>
+            <p className="text-navy-800">Office hours are held in person. Email <a href="mailto:oh@accessibilitypractice.com" className="font-medium underline break-words">oh@accessibilitypractice.com</a> to learn when and where the next session will be held.</p>
           </div>
 
           {/* A11y Party */}
